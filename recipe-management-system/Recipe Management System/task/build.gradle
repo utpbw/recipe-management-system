@@ -24,7 +24,10 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
     implementation 'org.springframework.boot:spring-boot-starter-web'
-    // Lombok dependencies
-    implementation 'org.projectlombok:lombok:1.18.30'
+
+    compileOnly 'org.projectlombok:lombok:1.18.30'
     annotationProcessor 'org.projectlombok:lombok:1.18.30'
+
+    // Jackson for JSON processing (already included in Spring Boot Web Starter, but explicitly adding if needed)
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.16.0'
 }
