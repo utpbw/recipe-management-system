@@ -1,0 +1,44 @@
+type: edu
+files:
+  - name: src/recipes/RecipesApplication.java
+    visible: true
+    learner_created: false
+  - name: src/resources/application.properties
+    visible: true
+    learner_created: false
+  - name: build.gradle
+    visible: true
+    learner_created: false
+  - name: src/recipes/Api.java
+    visible: true
+    learner_created: false
+  - name: src/recipes/Recipe.java
+    visible: true
+    learner_created: false
+  - name: test/RecipesApplicationTest.java
+    visible: false
+    learner_created: false
+  - name: src/recipes/models/Direction.java
+    visible: true
+    learner_created: true
+  - name: src/recipes/services/RecipeService.java
+    visible: true
+    learner_created: true
+  - name: src/recipes/controllers/MainController.java
+    visible: true
+    learner_created: true
+  - name: src/recipes/models/Ingredient.java
+    visible: true
+    learner_created: true
+  - name: src/recipes/models/Recipe.java
+    visible: true
+    learner_created: true
+  - name: src/recipes/dto/RecipeDTO.java
+    visible: true
+    learner_created: true
+  - name: src/recipes/repositories/RecipeRepository.java
+    visible: true
+    learner_created: true
+feedback_link: https://hyperskill.org/learn/step/13090#comment
+status: Solved
+record: 2
